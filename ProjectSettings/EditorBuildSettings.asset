@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/escenas/preIntro.unity
+    guid: f5887fdd7f1af401c8544ba498e05f38
+  - enabled: 1
+    path: Assets/escenas/intro.unity
+    guid: 17685c79a1fbe41168bf294fa615434c
+  - enabled: 1
+    path: Assets/escenas/juego.unity
+    guid: 0a1178eda3fde474e96f28f8394f6d68
+  - enabled: 1
+    path: Assets/escenas/advertiment.unity
+    guid: 7f153f8104d7c4af0a33ae86d11d6d37
+  - enabled: 1
+    path: Assets/escenas/info.unity
+    guid: 1748a4239b9994bb99e172fb28e99c16
+  - enabled: 1
+    path: Assets/escenas/howPlay.unity
+    guid: e3aa6acd5fc6348fc9721eec2602276b
