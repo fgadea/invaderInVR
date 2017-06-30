@@ -214,8 +214,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: user.keystore
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: keystore/spaceInvaders.keystore
+  AndroidKeyaliasName: vinvadervr
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 0

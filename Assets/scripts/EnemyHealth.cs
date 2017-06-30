@@ -117,7 +117,7 @@ public class EnemyHealth : MonoBehaviour {
 		}
 		gOver.enabled = true;
 		gOver.DOFade (0f, 0f);
-		gOver.DOFade (1f, 2f).OnComplete(() => {
+		gOver.DOFade (2f, 2f).OnComplete(() => {
 			SceneManager.LoadSceneAsync ("intro");
 			SceneManager.UnloadSceneAsync ("juego");
 		});
@@ -130,7 +130,7 @@ public class EnemyHealth : MonoBehaviour {
 		}
 		win.enabled = true;
 		win.DOFade (0f, 0f);
-		win.DOFade (1f, 2f).OnComplete(() => {
+		win.DOFade (2f, 2f).OnComplete(() => {
 			SceneManager.LoadSceneAsync ("intro");
 			SceneManager.UnloadSceneAsync ("juego");
 		});
@@ -157,7 +157,7 @@ public class EnemyHealth : MonoBehaviour {
 	IEnumerator gaze(){
 		yield return new WaitForSeconds (0.033f);
 		if(Physics.Raycast(ray, out hit)){
-			gazeReticle.fillAmount += 0.1f;
+			gazeReticle.fillAmount += 0.2f;
 		}if(!Physics.Raycast(ray,out hit)){
 			gazeReticle.fillAmount = 0;
 		}
