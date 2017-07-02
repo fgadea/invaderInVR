@@ -72,7 +72,7 @@ public class selectScript : MonoBehaviour {
 		}
 		if (gazeReticle.fillAmount == 1) {
 			selectionObject.noGameController = true;
-			SceneManager.LoadSceneAsync ("intro");
+			SceneManager.LoadScene ("intro");
 			SceneManager.UnloadSceneAsync (scene.name);
 		}
 		yield return StartCoroutine (gaze ());

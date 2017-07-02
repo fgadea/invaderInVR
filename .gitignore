@@ -1,6 +1,10 @@
 # Created by https://www.gitignore.io/api/macos,windows,monodevelop,visualstudio,visualstudiocode
 
 *.apk
+.apk
+*.keystore
+.keystore
+[Kk]eystore/
 
 ### macOS ###
 *.DS_Store
